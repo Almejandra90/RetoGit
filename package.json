@@ -1,0 +1,17 @@
+{
+  "name": "retogithub",
+  "version": "1.0.0",
+  "description": "Retogit",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Retogit"
+  ],
+  "author": "AlejandraTarquino",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.14.2"
+  }
+}
