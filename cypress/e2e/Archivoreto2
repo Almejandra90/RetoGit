@@ -1,0 +1,13 @@
+describe ('Pruebas Udemy',() =>{
+    beforeEach(() => {
+         cy.visit('https://www.freerangetesters.com/');
+      })
+   it('prueba cursos',() =>{
+    cy.get('[data-testid="header-container"] > .sc-erSfwj > .sc-cHqXqK > :nth-child(1) > .sc-iuUfFv').click()
+    cy.get(' .sc-Rjrgp > .sc-giBObj > .sc-UblHX > .sc-epnzzT').should('have.lenght', 15)
+
+    })
+
+      
+  
+});
